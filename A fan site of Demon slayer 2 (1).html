@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demon Slayer Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#121214] text-white">
+
+    <nav class="flex justify-between items-center px-10 py-6 bg-transparent">
+        <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-red-600 rounded-sm rotate-45 flex items-center justify-center">
+                <div class="w-4 h-4 bg-white rotate-45"></div>
+            </div>
+            <span class="text-xl font-bold tracking-tight">Demon Slayer Showcase</span>
+        </div>
+        <ul class="flex gap-10 text-gray-300 font-medium">
+            <li class="hover:text-white cursor-pointer">Home</li>
+            <li class="hover:text-white cursor-pointer">Characters</li>
+            <li class="hover:text-white cursor-pointer">Breathing</li>
+        </ul>
+    </nav>
+
+    <header class="relative px-10 py-20 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
+        <div class="z-10 max-w-xl">
+            <h1 class="text-7xl font-black uppercase tracking-tighter mb-4 leading-none">
+                DEMON SLAYER
+            </h1>
+            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+                Through the Taisho Era, the sun never sets on those who carry Nichirin Blade.
+            </p>
+            <button class="bg-[#e23e3e] hover:bg-red-700 text-white font-bold py-3 px-8 rounded-md transition duration-300">
+                Explore Hashira
+            </button>
+        </div>
+
+        <div class="relative mt-10 md:mt-0">
+            <img src="c:\Users\Tejas Malak\Downloads\wp10688486.webp" 
+                 alt="Tanjiro Sun Breathing" 
+                 class="w-[500px] h-auto drop-shadow-[0_0_50px_rgba(226,62,62,0.5)]">
+        </div>
+    </header>
+
+    <main class="px-10 py-20 max-w-7xl mx-auto">
+        <div class="flex items-center gap-4 mb-12">
+            <div class="w-1.5 h-12 bg-red-600"></div>
+            <h2 class="text-4xl font-bold">The Main Trio</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-[#1a1a1e] rounded-3xl overflow-hidden border-2 border-blue-400/30 hover:scale-105 transition-transform duration-300 shadow-2xl">
+                <img src="e:\tanjiro-kamado-3840x2160-10054.jpg" alt="Tanjiro" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <p class="text-blue-400 text-xs font-bold uppercase mb-1">Water / Sun</p>
+                    <h3 class="text-2xl font-black mb-2">Tanjiro Kamado</h3>
+                    <p class="text-gray-400 text-sm italic">'The boy with hanafuda earrings.'</p>
+                </div>
+            </div>
+
+            <div class="bg-[#1a1a1e] rounded-3xl overflow-hidden border-2 border-pink-500/30 hover:scale-105 transition-transform duration-300 shadow-2xl">
+                <img src="e:\5028fd37ddeee6ae397eb1933afbff2c.jpg" alt="Nezuko" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <p class="text-pink-500 text-xs font-bold uppercase mb-1">Demon Art</p>
+                    <h3 class="text-2xl font-black mb-2">Nezuko Kamado</h3>
+                    <p class="text-gray-400 text-sm italic">'The demon who protects humans.'</p>
+                </div>
+            </div>
+
+            <div class="bg-[#1a1a1e] rounded-3xl overflow-hidden border-2 border-yellow-400/30 hover:scale-105 transition-transform duration-300 shadow-2xl">
+                <img src="e:\HD-wallpaper-zenitsu-phone-demonslayer.jpg" alt="Zenitsu" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <p class="text-yellow-400 text-xs font-bold uppercase mb-1">Thunder</p>
+                    <h3 class="text-2xl font-black mb-2">Zenitsu Agatsuma</h3>
+                    <p class="text-gray-400 text-sm italic">'Thunderclap and Flash!'</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="border-t border-gray-800 py-10 text-center text-gray-500 text-xs tracking-widest uppercase">
+        <div class="flex justify-center items-center gap-4 mb-2">
+            <span>Copyright &copy; Sayer's Toolbox</span>
+            <span class="text-gray-700">|</span>
+            <span>Tailwind & HTML CSS</span>
+        </div>
+    </footer>
+
+</body>
+</html>
